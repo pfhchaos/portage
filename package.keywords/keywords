@@ -1,0 +1,11 @@
+*/*::personal
+
+=app-emulation/emulationstation-9999 **
+=app-misc/powerline-9999-r17 **
+=games-emulation/citra-9999 **
+=games-emulation/pcsx2-9999 **
+=games-emulation/retroarch-9999 **
+=media-gfx/flam3-9999 **
+=x11-misc/bumblebee-9999 **
+=x11-misc/i3blocks-gaps-9999 **
+=x11-wm/i3-9999 **

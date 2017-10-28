@@ -1,0 +1,7 @@
+games-emulation/libretro-meta 2048 4do beetle-psx -bnes bsnes desmume -dolphin -fba -fbalpha -fbalpha2012 fceu-next -gambatte genplus handy -mame mame2000 mednafen-gba mednafen-ngp mednafen-pce-fast -mednafen-snes mednafen-supergrafx mednafen-vb mednafen-wswan meteor mgba mupen64plus nestopia nxengine pcsx-rearmed picodrive ppsspp prboom prosystem psp1 quicknes scummvm snes9x snes9x2002 snes9x2010 stella tgbdual tyrquake vba-next vbam yabause
+games-emulation/mupen64plus-core -osd
+games-emulation/retroarch -cg
+media-libs/libsdl2 haptic
+sys-libs/zlib minizip
+games-emulation/emulationstation themes
+games-emulation/sdlmame tools

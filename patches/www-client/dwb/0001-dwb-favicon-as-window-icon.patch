@@ -1,0 +1,11 @@
+diff -rupN dwb-2013.03.30/src/view.c dwb-2013.03.30-new/src/view.c
+--- dwb-2013.03.30/src/view.c	2013-03-30 07:03:46.000000000 -0700
++++ dwb-2013.03.30-new/src/view.c	2014-02-17 00:56:24.591530640 -0800
+@@ -1306,6 +1306,7 @@ view_set_favicon(GList *gl, gboolean web
+         pb = webkit_web_view_get_icon_pixbuf(WEBVIEW(gl));
+         if (pb) 
+         {
++            gtk_window_set_icon(GTK_WINDOW(dwb.gui.window), pb);
+             new = gdk_pixbuf_scale_simple(pb, dwb.misc.bar_height, dwb.misc.bar_height, GDK_INTERP_BILINEAR);
+             g_object_unref(pb);
+         }

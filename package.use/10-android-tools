@@ -1,0 +1,3 @@
+sys-libs/ncurses:5/5 tinfo
+# required to compile openjdk (icedtea)
+sys-devel/gcc gcj 

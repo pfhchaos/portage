@@ -1,0 +1,47 @@
+# Portage Tools
+app-admin/eclean-kernel
+app-portage/cpuid2cpuflags
+app-portage/gentoolkit
+app-portage/layman
+app-portage/metagen
+app-portage/smart-live-rebuild
+app-portage/gs-pypi
+app-portage/repoman
+
+# Filesystem Tools
+sys-fs/btrfs-progs
+sys-apps/gptfdisk
+sys-fs/dosfstools
+sys-fs/hfsutils
+sys-fs/mdadm
+sys-apps/smartmontools
+sys-fs/ddrescue
+sys-apps/hdparm
+
+# System Monitering
+sys-power/powertop
+sys-apps/lshw
+sys-fs/lsscsi
+sys-process/lsof
+app-portage/portpeek
+net-analyzer/iftop
+net-analyzer/nmap
+net-analyzer/traceroute
+net-analyzer/nethogs
+net-analyzer/netperf
+sys-process/glances
+dev-python/pysensors  # for temps in glances
+
+# Kernel Tools
+sys-kernel/genkernel-next
+
+# initramfs
+sys-kernel/dracut
+app-shells/dash
+
+# UEFI
+sys-boot/efibootmgr
+
+app-admin/sudo
+
+net-analyzer/fail2ban

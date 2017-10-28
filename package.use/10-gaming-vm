@@ -1,0 +1,6 @@
+media-sound/pulseaudio system-wide
+
+# allow libvirt to setup bridge
+# i dont think i need this
+#app-emulation/libvirt virt-network
+#net-dns/dnsmasq script

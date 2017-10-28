@@ -1,0 +1,96 @@
+x11-wm/i3
+dev-python/i3ipc
+x11-misc/compton
+x11-misc/i3blocks-gaps
+x11-misc/i3status
+x11-misc/dmenu
+x11-misc/j4-dmenu-desktop
+x11-misc/dunst
+x11-misc/rofi
+
+# Images
+media-gfx/feh
+x11-misc/hsetroot
+media-gfx/scrot
+
+x11-apps/setxkbmap
+x11-apps/xev
+x11-apps/xmodmap
+x11-misc/xiccd
+x11-misc/xkbset
+app-misc/evtest
+
+x11-apps/xrandr
+app-admin/pass
+x11-misc/rofi-pass
+net-p2p/rtorrent
+x11-misc/redshift
+app-misc/gtypist
+mail-client/mutt
+
+# Media
+media-video/mpv
+
+dev-util/desktop-file-utils
+
+media-sound/mumble
+media-sound/teamspeak-client-bin
+
+
+
+app-editors/vim
+app-vim/powerline-vim
+
+# pdf viewers
+app-text/zathura-meta
+
+# Fonts
+media-fonts/fontawesome
+media-fonts/noto
+media-fonts/powerline-fonts
+media-fonts/powerline-symbols
+media-fonts/symbola
+media-fonts/terminus-font
+media-fonts/unifont
+
+# Themes
+x11-themes/tango-icon-theme
+x11-themes/obsidian-xcursors
+x11-themes/murrine-themes
+
+# Electricsheep Desktop
+x11-misc/xwinwrap
+x11-misc/electricsheep
+
+# Terminal
+x11-terms/termite
+x11-terms/rxvt-unicode
+
+# Chat
+net-irc/irssi
+net-im/pidgin
+net-im/bitlbee
+x11-plugins/pidgin-opensteamworks
+
+# Web Browsers
+www-client/firefox-bin
+www-client/google-chrome
+www-client/qutebrowser
+net-misc/youtube-dl
+www-plugins/adobe-flash
+
+# Sound
+media-sound/ncpamixer
+media-sound/pavucontrol
+media-sound/pianobar
+
+# Shell
+app-misc/tmux
+app-misc/powerline
+app-shells/zsh
+app-shells/zsh-completions
+app-shells/gentoo-zsh-completions
+
+# Compression
+app-arch/p7zip
+app-arch/unrar

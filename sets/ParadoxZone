@@ -1,0 +1,19 @@
+# Dynamic DNS
+net-dns/ddclient
+
+# SSH
+net-misc/openssh
+
+# Automounter
+sys-fs/afuse
+
+# SSH
+net-misc/mosh
+
+# Sftp
+net-ftp/vsftpd
+net-fs/sshfs
+
+# Smb
+net-fs/samba
+net-fs/smbnetfs

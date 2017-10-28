@@ -1,0 +1,32 @@
+# Emulators
+games-emulation/advancemame
+games-emulation/sdlmame
+games-emulation/citra
+games-emulation/desmume
+games-emulation/dolphin
+games-emulation/mednafen
+games-emulation/mupen64plus
+games-emulation/retroarch
+
+# Frontends
+games-emulation/emulationstation
+# move games-emulation/emulationstation-themes games-emulation/emulationstation-themes-meta
+games-emulation/emulationstation-themes-meta
+
+# Image Tools
+app-cdr/bchunk
+app-cdr/bin2iso
+app-cdr/cdemu
+app-cdr/cdrtools
+games-util/linux-wbfs-manager
+
+# Controller Tools
+games-util/qjoypad
+games-util/xboxdrv
+
+# DwarfFortress
+media-libs/sdl-image
+media-libs/sdl-ttf
+
+# Steam
+games-util/steam-launcher

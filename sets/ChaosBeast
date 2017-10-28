@@ -1,0 +1,19 @@
+# firmware for radeon gfx card
+sys-kernel/linux-firmware
+
+# Mouse
+sys-apps/roccat-tools
+
+# Wireless Ethernet
+net-wireless/broadcom-sta
+net-misc/networkmanager
+net-wireless/rfkill
+
+# Bluetooth
+sys-firmware/bluez-firmware
+
+# Home Printer
+net-print/hplip
+
+# Power Managment
+sys-power/cpupower

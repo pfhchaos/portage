@@ -1,0 +1,4 @@
+app-portage/layman g-sorcery
+
+#Seriously i dont even like plymouth
+sys-kernel/genkernel-next -plymouth

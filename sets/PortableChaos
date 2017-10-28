@@ -1,0 +1,21 @@
+# Logging
+app-admin/mcelog
+
+# Power Managment
+app-laptop/tlp
+x11-apps/xbacklight
+
+# webcam
+media-tv/v4l-utils
+
+# ethernet 
+net-misc/r8168
+
+# card reader
+sys-block/rts5229
+
+# optimus graphics
+x11-misc/bumblebee
+
+# Work Printer
+net-print/epson-inkjet-printer-escpr

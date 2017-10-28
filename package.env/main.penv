@@ -1,0 +1,3 @@
+games-emulation/pcsx2 pcsx2.env
+#www-plugins/pipelight pcsx2.env
+=net-libs/webkit-gtk-1.8.3-r300 nosandbox.env

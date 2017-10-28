@@ -1,0 +1,77 @@
+>=app-crypt/heimdal-1.5.3-r2 -ssl
+>=app-crypt/heimdal-1.5.3-r2 -threads
+app-emulation/playonlinux winbind
+>=app-emulation/qemu-2.2.0
+app-emulation/wine pipelight staging -gstreamer
+app-misc/powerline vim zsh tmux
+>=app-portage/g-sorcery-0.2.1-r1 bson
+>=app-portage/layman-2.4.1-r1 g-sorcery
+dev-lang/perl ithreads
+=dev-lang/python-2.7.3-r2 sqlite
+=dev-libs/efl-9999 audio -xcb
+>=dev-libs/elfutils-0.158 static-libs
+>=dev-libs/libpcre-8.36 pcre16
+dev-libs/quazip -qt4 qt5
+>=dev-qt/qtgui-4.8.4-r1 xinerama
+>=dev-qt/qtgui-5.4.0 accessibility
+>=dev-qt/qtwebkit-4.8.7:4 -exceptions
+dev-util/boost-build -python
+dev-vcs/git -gtk
+dev-vcs/subversion -dso
+games-emulation/common-shaders -cg
+gnome-extra/nm-applet -bluetooth
+media-fonts/powerline-fonts X inconsolata terminus_pcf
+media-gfx/nvidia-cg-toolkit multilib
+=media-libs/elementary-9999 -xcb
+>=media-libs/gd-2.1.1-r1 fontconfig
+media-libs/gst-plugins-bad -gles2
+=media-libs/gst-plugins-base-1.0.5-r2 theora
+=media-libs/harfbuzz-0.9.23 icu
+=media-libs/libpng-1.5.13-r1 apng
+>=media-libs/libsdl2-2.0.3-r200 haptic
+media-libs/libsdl2 gles
+media-libs/mesa llvm-shared-libs
+>=media-libs/sdl-sound-1.0.3 modplug
+=media-plugins/alsa-plugins-1.0.25-r1 pulseaudio
+>=media-plugins/gst-plugins-meta-0.10-r10:0.10 http
+>=media-plugins/gst-plugins-meta-1.0-r2 ffmpeg
+>=media-plugins/gst-plugins-meta-1.0-r3 http
+media-sound/pulseaudio system ofono-headset native-headset
+>=media-video/ffmpeg-2.8.4 opus vpx
+net-analyzer/wireshark -qt4
+=net-dns/avahi-0.6.30-r3 mdnsresponder-compat
+>=net-dns/avahi-0.6.31-r6 autoipd
+net-dns/avahi mdnsresponder-compat
+>=net-fs/samba-4.1.17 client
+net-fs/samba -system-mitkrb5 gnutls
+net-im/bitlbee purple -jabber -msn -oscar -yahoo
+net-libs/libmicrohttpd messages
+=net-libs/libproxy-0.4.10-r1 -perl
+>=net-libs/polarssl-1.3.9 havege
+net-libs/webkit-gtk -gles2
+net-misc/curl -threads adns
+net-misc/networkmanager -nss
+>=net-misc/spice-gtk-0.25-r1 usbredir gtk3
+net-misc/spice-gtk -gstreamer
+net-p2p/rtorrent daemon
+net-print/cups -filters
+net-wireless/bluez client tools
+net-wireless/bluez sixaxis
+ys-apps/portage python3
+>=sys-devel/binutils-2.25 multitarget
+=sys-fs/udev-197-r8 hwdb
+>=sys-libs/zlib-1.2.7 minizip
+>=virtual/udev-197-r1 hwdb
+www-client/links -X
+www-plugins/adobe-flash 32bit
+x11-base/xorg-server kdrive
+=x11-libs/cairo-1.12.12 xcb
+>=x11-libs/gtk+-2.24.18:2 appmenu
+>=x11-libs/libdrm-2.4.65 video_cards_amdgpu
+x11-libs/vte termite-patch
+>=x11-libs/wxGTK-2.8.12.1:2.8 tiff
+x11-libs/wxGTK abiwrapper
+x11-misc/lightdm -qt4
+x11-terms/rxvt-unicode secondary-wheel xft buffer-on-clear fading-colors -vanilla
+x11-terms/rxvt-unicode unicode3 256-color
+>=x11-themes/light-themes-0.1.93-r1 gtk3

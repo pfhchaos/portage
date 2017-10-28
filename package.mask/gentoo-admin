@@ -1,0 +1,2 @@
+# bug 612712 will not currently build
+=net-mail/mailutils-3.2

@@ -1,0 +1,16 @@
+x11-misc/rofi windowmode
+x11-misc/dunst dunstify
+x11-misc/redshift geoclue
+app-crypt/pinentry gnome-keyring -qt4 qt5
+x11-libs/vte termite-patch
+app-text/zathura-meta cb
+x11-terms/rxvt-unicode secondary-wheel 256-color buffer-on-clear fading-colors unicode3 -vanilla
+app-admin/pass dmenu
+
+# console tools
+mail-client/mutt berkdb -gdbm
+
+# web browser
+
+# required by qutebrowser
+dev-python/PyQt5 declarative

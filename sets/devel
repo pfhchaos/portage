@@ -1,0 +1,9 @@
+app-text/dos2unix
+
+# Python
+dev-python/ipython
+
+#
+dev-util/valgrind
+sys-devel/gdb
+dev-vcs/git

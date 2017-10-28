@@ -1,0 +1,21 @@
+net-misc/networkmanager -nss
+media-libs/gst-plugins-bad -gles2
+app-emulation/wine staging 
+net-libs/webkit-gtk -gles2
+net-fs/samba -system-mitkrb5 
+net-dns/avahi mdnsresponder-compat
+dev-libs/libpcre pcre16
+# required by teamspeak
+dev-qt/qtgui accessibility
+#media-sound/pulseaudio libsamplerate
+
+net-im/bitlbee purple -jabber -msn -oscar -yahoo
+net-fs/samba client
+
+#required by vim?
+dev-lang/perl ithreads
+
+sys-devel/llvm clang
+
+# required by samba?
+app-crypt/heimdal ssl

@@ -1,0 +1,2 @@
+app-emulation/wine-compholio multilib -multilib_abi_x86
+cross-i686-w64-mingw32/gcc multilib

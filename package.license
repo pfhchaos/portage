@@ -1,0 +1,15 @@
+# required by adobe-flash (argument)
+>=www-plugins/adobe-flash-11.2.202.273 AdobeFlash-11.x
+# required by google-chrome (argument)
+>=www-client/google-chrome-29.0.1547.22_beta211613:beta google-chrome
+# required by google-chrome (argument)
+>=www-client/google-chrome-33.0.1750.152_p1 google-chrome
+# required by skype (argument)
+>=net-im/skype-4.2.0.13 skype-4.0.0.7-copyright
+# required by virtual/jdk-1.8.0::gentoo
+# required by dev-java/junit-4.12::gentoo
+# required by dev-java/ant-junit-1.9.2::gentoo
+# required by dev-java/ant-1.9.2::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-java/oracle-jdk-bin-1.8.0.45 Oracle-BCLA-JavaSE

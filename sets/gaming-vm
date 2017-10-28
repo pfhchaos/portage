@@ -1,0 +1,9 @@
+app-emulation/qemu
+app-emulation/virt-manager
+app-emulation/libvirt
+dev-libs/libcec
+net-misc/bridge-utils
+net-misc/ifenslave
+x11-misc/synergy
+net-misc/rdesktop
+net-firewall/ebtables

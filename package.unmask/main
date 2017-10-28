@@ -1,0 +1,134 @@
+sys-apps/portage
+# required by =wireshark-1.9.1 (argument)
+# /usr/portage/profiles/package.mask:
+# Jeroen Roovers <jer@gentoo.org> (22 Feb 2013)
+# Development versions of net-analyzer/wireshark
+=net-analyzer/wireshark-1.9.1
+# required by =abi-wrapper-2.0_pre20120702 (argument)
+# /var/lib/layman/multilib-portage/profiles/package.mask:
+# Nathan Phillip Brink <binki@gentoo.org> (01 Jul 2012)
+# Masked for testing. This version provides argv[0] preservation and
+# is natively implemented, both major changes which might cause
+# problems.
+=sys-apps/abi-wrapper-2.0_pre20120702
+
+# required by app-laptop/laptop-mode-tools-1.63-r2
+# required by @selected
+# required by @world (argument)
+# /etc/portage/package.mask/portage-multilib:
+=net-wireless/bluez-4.101-r7
+# required by =bluez-5.13 (argument)
+# /usr/portage/profiles/package.mask:
+# Gilles Dartiguelongue <eva@gentoo.org> (23 Dec 2013)
+# Gnome 3.10 mask
+# * webkit still needs some testing on hardened and some USE flag combinations
+# * bluez-5 is a major update
+# * geoclue/geocode-glib is a major update
+=net-wireless/bluez-5.13
+# required by games-emulation/mupen64plus-2.0
+# required by =mupen64plus-2.0 (argument)
+# /usr/portage/profiles/package.mask:
+# Michał Górny <mgorny@gentoo.org> (15 Dec 2013)
+# Masked for testing due to almost complete redesign. It is now
+# completely split and no longer has an integrated GUI. Currently,
+# the only working GUI is the PyQt4 GUI and it has license issues
+# (bug #494524).
+=games-emulation/m64py-0.1.8
+# required by games-emulation/mupen64plus-video-rice-2.0
+# required by games-emulation/mupen64plus-2.0
+# required by =mupen64plus-2.0 (argument)
+# /usr/portage/profiles/package.mask:
+# Michał Górny <mgorny@gentoo.org> (15 Dec 2013)
+# Masked for testing due to almost complete redesign. It is now
+# completely split and no longer has an integrated GUI. Currently,
+# the only working GUI is the PyQt4 GUI and it has license issues
+# (bug #494524).
+=games-emulation/mupen64plus-core-2.0
+# required by games-emulation/mupen64plus-2.0
+# required by =mupen64plus-2.0 (argument)
+# /usr/portage/profiles/package.mask:
+# Michał Górny <mgorny@gentoo.org> (15 Dec 2013)
+# Masked for testing due to almost complete redesign. It is now
+# completely split and no longer has an integrated GUI. Currently,
+# the only working GUI is the PyQt4 GUI and it has license issues
+# (bug #494524).
+=games-emulation/mupen64plus-audio-sdl-2.0
+# required by games-emulation/mupen64plus-2.0
+# required by =mupen64plus-2.0 (argument)
+# /usr/portage/profiles/package.mask:
+# Michał Górny <mgorny@gentoo.org> (15 Dec 2013)
+# Masked for testing due to almost complete redesign. It is now
+# completely split and no longer has an integrated GUI. Currently,
+# the only working GUI is the PyQt4 GUI and it has license issues
+# (bug #494524).
+=games-emulation/mupen64plus-video-rice-2.0
+# required by games-emulation/mupen64plus-2.0
+# required by =mupen64plus-2.0 (argument)
+# /usr/portage/profiles/package.mask:
+# Michał Górny <mgorny@gentoo.org> (15 Dec 2013)
+# Masked for testing due to almost complete redesign. It is now
+# completely split and no longer has an integrated GUI. Currently,
+# the only working GUI is the PyQt4 GUI and it has license issues
+# (bug #494524).
+=games-emulation/mupen64plus-video-glide64mk2-2.0
+# required by games-emulation/mupen64plus-2.0
+# required by =mupen64plus-2.0 (argument)
+# /usr/portage/profiles/package.mask:
+# Michał Górny <mgorny@gentoo.org> (15 Dec 2013)
+# Masked for testing due to almost complete redesign. It is now
+# completely split and no longer has an integrated GUI. Currently,
+# the only working GUI is the PyQt4 GUI and it has license issues
+# (bug #494524).
+=games-emulation/mupen64plus-input-sdl-2.0
+# required by =mupen64plus-2.0 (argument)
+# /usr/portage/profiles/package.mask:
+# Michał Górny <mgorny@gentoo.org> (15 Dec 2013)
+# Masked for testing due to almost complete redesign. It is now
+# completely split and no longer has an integrated GUI. Currently,
+# the only working GUI is the PyQt4 GUI and it has license issues
+# (bug #494524).
+=games-emulation/mupen64plus-2.0
+# required by games-emulation/mupen64plus-2.0
+# required by =mupen64plus-2.0 (argument)
+# /usr/portage/profiles/package.mask:
+# Michał Górny <mgorny@gentoo.org> (15 Dec 2013)
+# Masked for testing due to almost complete redesign. It is now
+# completely split and no longer has an integrated GUI. Currently,
+# the only working GUI is the PyQt4 GUI and it has license issues
+# (bug #494524).
+=games-emulation/mupen64plus-rsp-hle-2.0
+# required by games-emulation/mupen64plus-2.0
+# required by =mupen64plus-2.0 (argument)
+# /usr/portage/profiles/package.mask:
+# Michał Górny <mgorny@gentoo.org> (15 Dec 2013)
+# Masked for testing due to almost complete redesign. It is now
+# completely split and no longer has an integrated GUI. Currently,
+# the only working GUI is the PyQt4 GUI and it has license issues
+# (bug #494524).
+=games-emulation/mupen64plus-ui-console-2.0
+# required by www-client/google-chrome-33.0.1750.152_p1
+# required by google-chrome (argument)
+# /usr/portage/profiles/package.mask:
+# Michał Górny <mgorny@gentoo.org> (28 Feb 2014)
+# New multilib conversions for testing, grouped with corresponding
+# emul-linux bumps. Please unmask in order, after getting ACK from
+# package maintainer.
+#
+# Notes:
+# - yngwin explicitly requested 30 days + 1 version bump for cairo.
+# - always unmask in order, with emul-linux of choice and *all* packages
+# preceding it
+# - please update https://wiki.gentoo.org/wiki/Multilib_porting_status
+# (mark the packages as {{Yes|DONE}})
+=dev-libs/libgcrypt-1.5.3-r100
+# required by =dev-libs/boost-1.58.0-r1 (argument)
+# /usr/portage/profiles/package.mask:
+# Sergey Popov <pinkbyte@gentoo.org> (13 Jul 2015)
+# Mask new version of Boost - it's known to cause breakages
+=dev-libs/boost-1.58.0-r1
+# required by dev-libs/boost-1.58.0-r1::gentoo
+# required by =dev-libs/boost-1.58.0-r1 (argument)
+# /usr/portage/profiles/package.mask:
+# Sergey Popov <pinkbyte@gentoo.org> (13 Jul 2015)
+# Mask new version of Boost - it's known to cause breakages
+=dev-util/boost-build-1.58.0

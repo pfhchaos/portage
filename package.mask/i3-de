@@ -1,0 +1,4 @@
+=x11-misc/electricsheep-2.7_beta11::gentoo
+
+# Bug 605158 - media-libs/libid3tag-0.15.1b-r4 with dev-util/gperf-3.1 fails to build 
+=dev-util/gperf-3.1

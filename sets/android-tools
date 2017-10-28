@@ -1,0 +1,7 @@
+dev-util/android-tools
+sys-fs/simple-mtpfs
+
+# needed by lineageOS build system
+sys-process/schedtool
+sys-libs/ncurses:5/5
+dev-java/icedtea:8

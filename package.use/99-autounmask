@@ -1,0 +1,9 @@
+# required by dev-qt/qtcore-5.9.2::gentoo
+# required by dev-qt/qttest-5.9.2::gentoo
+# required by dev-qt/qtdeclarative-5.9.2::gentoo[-test]
+# required by dev-python/PyQt5-5.8.2::gentoo[declarative]
+# required by www-client/qutebrowser-0.9.1::gentoo
+# required by @i3-de
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libpcre2-10.30 pcre16
